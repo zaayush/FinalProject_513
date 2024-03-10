@@ -9,7 +9,7 @@ import time
 # Replace "${YOUR_AUTH_TOKEN}" with your access token
 pipeline = Pipeline.from_pretrained(
     "pyannote/speaker-diarization-3.1",
-    use_auth_token="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")
+    use_auth_token="PYANNOTE_TOKEN")
 
 # Define the function to process real-time audio from the microphone
 def process_realtime_audio(duration=5, filename='audio.wav', samplerate=44100, channels=2):
