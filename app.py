@@ -169,7 +169,7 @@ def process_realtime_audio(duration=5, filename='audio.wav', samplerate=88200, c
     delete_audio_segment_files()
  
 # Streamlit app layout and functionality
-st.title("Real-time Speaker Diarization")
+st.title("Tale - Speaker Diarization and Context based AI completion/correction for Aphasia assistance")
  
 duration = st.slider("Select recording duration (seconds):", 1, 15, 5)
 start_button = st.button("Start Recording")
